@@ -1,0 +1,86 @@
+/* BookChapterForm.css */
+
+/* .book-chapter-form-container {
+    background-image: url('../assests/background-images.avif');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+} */
+
+.book-chapter-form-card {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.book-chapter-form-card h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    font-size: 14px;
+    color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+.form-control.is-invalid {
+    border-color: #dc3545;
+    background-color: #f8d7da;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.invalid-feedback {
+    color: #dc3545;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.error-text {
+    color: #dc3545;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}

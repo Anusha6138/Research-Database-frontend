@@ -1,0 +1,113 @@
+/* body {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+   */
+
+   /* Ensure the entire body fills the viewport */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* Flex container to hold both header/content and footer */
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Make sure the container fills the remaining space */
+.main-content {
+  flex: 1;
+}
+
+/* Styling for the footer to stick at the bottom */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+}
+
+  h2 {
+    margin: 20px 0;
+  }
+  
+  .header-navbar {
+    background-color: #343a40;
+    padding: 15px 0;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .nav-link {
+    margin: 0 15px;
+    color: #fff !important;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #17a2b8 !important;
+  }
+  
+  .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  .header-navbar .nav-links .nav-link {
+    padding: 8px 12px; /* Adjust padding to make it more compact */
+    font-size: 0.9rem; /* Reduce font size slightly */
+  }
+  
+  .header-navbar .navbar-brand {
+    font-size: 1.2rem; /* Slightly increase the brand name size for better visibility */
+  }
+  
+  .header-navbar .navbar-collapse {
+    justify-content: flex-end; /* Align the items to the right */
+  }
+  html, body, #root {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container-fluid {
+    flex: 1;
+  }
+  
+  .footer {
+    margin-top: auto;
+  }
+  
+  

@@ -1,0 +1,5 @@
+body {
+    background: url('./components/assests/pexels-photo-317356.jpeg') no-repeat center center;
+    background-size: cover; /* This scales the background image to cover the entire container */
+    color: #333; /* Ensure text is readable */
+}

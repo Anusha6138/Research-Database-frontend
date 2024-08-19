@@ -1,0 +1,77 @@
+.auth-container {
+    /* background-image: url('../assests/background-images.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.auth-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.auth-card h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.auth-card label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.auth-card input[type="text"],
+.auth-card input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.auth-card input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.auth-card input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.auth-card .error-message {
+    color: red;
+    font-size: 0.9rem;
+}
+
+.auth-card a {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    color: #007BFF;
+}
+
+.auth-card a:hover {
+    color: #0056b3;
+}

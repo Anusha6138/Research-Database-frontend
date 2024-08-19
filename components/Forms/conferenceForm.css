@@ -1,0 +1,95 @@
+/* ConferenceForm.css */
+
+/* .conference-form-container {
+    background-image: url('../assests/background-images.avif');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+} */
+
+.conference-form-card {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.conference-form-card h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+.form-control {
+    font-size: 14px;
+    color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.form-control.is-invalid {
+    border-color: #dc3545;
+    background-color: #f8d7da;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.form-check-input:checked {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.form-check-label {
+    font-size: 14px;
+    color: #333;
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Error Messages */
+.invalid-feedback {
+    display: block;
+    color: #dc3545;
+    font-size: 12px;
+}
+
+.conference-form-card .invalid-feedback {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
